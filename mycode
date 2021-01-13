@@ -1,0 +1,5 @@
+import pandas as pd
+pd.set_option('display.max_rows', 10)
+user = pd.read_csv('data/data_用户表.csv',engine='python',encoding='utf-8')
+month2 = pd.read_csv('data/data_2月用户行为数据.csv',engine='python',encoding='utf-8')
+user 
