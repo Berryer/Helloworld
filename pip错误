@@ -1,0 +1,4 @@
+pip更新失败后，pip失效解决方法
+
+python -m ensurepip
+python -m pip install --upgrade pip
